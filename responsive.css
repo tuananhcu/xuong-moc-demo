@@ -1,0 +1,265 @@
+@media only screen and (max-width: 767.9px) {
+  html {
+    font-size: 12px;
+  }
+
+  /* Index */
+  #menu-bar {
+    font-size: 2rem;
+    display: initial;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+  }
+  .header .navbar {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #f7f7f7;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  .header .navbar.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .header .navbar a.active1 {
+    color: #bd945f;
+  }
+  .header .navbar a {
+    margin: 1rem;
+    padding: 1rem;
+    display: block;
+    border: 0.2rem solid rgba(0, 0, 0, 0.1);
+    border-left: 0.5rem solid #bd945f;
+    background: #fff;
+  }
+  .fa-times:before {
+    content: "\f00d";
+  }
+  .header .navbar a:after {
+    border: none;
+  }
+  .home {
+    padding: 4rem 10% 4rem 10%;
+    margin-top: 6rem;
+  }
+  .home .content {
+    padding-left: 0;
+  }
+  .home h1 {
+    font-size: 1.5rem;
+  }
+  .home a {
+    font-size: 0.8rem;
+  }
+  .home .content p {
+    font-size: 0.9rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  h4::after {
+    width: 5.5rem;
+  }
+
+  #sanPham .product-list {
+    top: -2rem;
+  }
+  #sanPham .product-list img {
+    height: 5rem;
+    width: auto;
+  }
+  #sanPham .product-list a {
+    font-size: 1rem;
+  }
+  #sanPham .product-list .row .col-md-3 {
+    max-width: 50%;
+    margin-bottom: 1rem;
+  }
+  .aboutUs .res p:first-child {
+    margin-top: 2rem;
+  }
+  .aboutUs .info .reason-item {
+    height: auto;
+  }
+  .tinTuc .main-content {
+    position: initial;
+  }
+  .tinTuc .title {
+    margin-top: 0.5rem;
+  }
+  .lienHe .imgLienHe {
+    display: none;
+  }
+  .lienHe .content {
+    margin: 0 0 1rem 0;
+    font-size: 1.2rem;
+  }
+  .lienHe .formDk input {
+    margin-top: 1rem;
+    width: 100%;
+  }
+  .lienHe .formDk button {
+    margin: 0;
+    margin-top: 1rem;
+    width: 100%;
+  }
+  .allInfo {
+    display: block;
+  }
+  .allInfo .info {
+    margin-top: 2rem;
+  }
+
+  /* Đối tác  */
+  .ndImg-img img {
+    height: 15rem;
+  }
+  .ndImg-title {
+    top: 7.5rem;
+  }
+  .ndImg-title img {
+    width: 3rem;
+  }
+  .boxDT .thumbnail {
+    text-align: center;
+  }
+
+  /* Giới thiệu  */
+  .boxGT .row .col-md-6 {
+    margin-bottom: 1rem;
+  }
+  .boxGT .banner3 img {
+    height: 2rem;
+  }
+  .boxGT .banner3 .thumbnail {
+    height: auto;
+  }
+
+  /* Liên hệ */
+
+  .boxLH p {
+    margin-top: 1rem;
+  }
+  /* Tin tức */
+  .boxTinTuc .pagination li a.page-link {
+    padding: 0.25rem 0.5rem;
+  }
+
+  /* Sản phẩm  */
+  .sanPham .carousel-inner img {
+    height: 15rem;
+  }
+  .sanPham .carousel-inner .btnSP {
+    top: 8rem;
+    left: 58%;
+  }
+  .sanPham .boxSP .col-md-3:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+
+  /* Bai Viet */
+  .baiViet h4 {
+    margin-top: 2rem;
+  }
+  .baiViet .title {
+    margin-bottom: 2rem;
+  }
+
+  /* Xem tất cả sản phẩm  */
+  .sanPham .cusLink {
+    padding-left: 1rem;
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  /* Chi tiết sản phẩm */
+  .chiTietSP .slideCT .mySlides img {
+    width: 100%;
+    height: 10rem;
+  }
+
+  .chiTietSP .slideCT .row1 .column1 img {
+    width: 100%;
+    height: 3rem;
+  }
+
+  .chiTietSP .fix-height .col-md-3:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+  .chiTietSP .nav {
+    justify-content: center;
+  }
+  .chiTietSP .container .nav-tabs .nav-link {
+    width: 100%;
+    border: none;
+  }
+  .chiTietSP .nav-tabs .active:after {
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+  /* index */
+  #sanPham .product-list img {
+    padding: 2rem;
+    height: 9rem;
+  }
+
+  .lienHe .imgLienHe {
+    width: 10rem;
+  }
+  .lienHe .content {
+    margin: 0 0 0 4rem;
+  }
+  .formDk input {
+    width: 15rem;
+  }
+
+  /* CTSP */
+  .chiTietSP .boxCT .name a {
+    padding: 0.5rem 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 991.1px) {
+  html {
+    font-size: 14px;
+  }
+  /* index     */
+  #sanPham .product-list img {
+    padding-top: 1rem;
+    height: 9rem;
+  }
+  .lienHe .imgLienHe {
+    width: 10rem;
+  }
+
+  /* CTSP */
+  .chiTietSP .boxCT .name a {
+    padding: 0.5rem 2rem;
+  }
+}
+
+/* Galaxy Fold */
+@media only screen and (max-width: 280px) {
+  /* index */
+  #sanPham .product-list img {
+    height: 4rem;
+    width: auto;
+  }
+
+  /* CTSP */
+  .chiTietSP .boxCT .name a {
+    padding: 0.5rem 1.5rem;
+  }
+  .linkBar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

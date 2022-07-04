@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liên hệ</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"
+    ></script>
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <a href="#"><img src="images/AnhCat/logo.jpg" alt="logo" /></a>
+      <!-- <img src="images/AnhCat/logo.jpg" alt="logo" /> -->
+
+      <div id="menu-bar" class="fa fa-bars"></div>
+
+      <nav class="navbar">
+        <a href="index.html" class="link">trang chủ</a>
+        <a href="gioiThieu.html" class="link">giới thiệu</a>
+        <a href="sanPham.html" class="link">sản phẩm</a>
+        <a href="tinTuc.html" class="link">tin tức</a>
+        <a href="doiTac.html" class="link">đối tác</a>
+        <a href="lienHe.html" class="link active1">liên hệ</a>
+      </nav>
+    </div>
+
+    <div class="box-content">
+        <div class="ndImg">
+          <div class="ndImg-img">
+            <img src="images/AnhCatTC/LIENHE.jpg" alt="đối tác" />
+          </div>
+          <div class="ndImg-title">
+            <img
+              src="images/AnhCatTC/logo3.png"
+              alt="logo" 
+            />
+            <p>LIÊN HỆ</p>
+          </div>
+        </div>
+        
+        <div class="boxLH">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="thumbnail h-100">
+                  <img src="images/AnhCat/sp-1.jpg" alt="anh lien he" class="h-100 w-100" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="thumbnail">
+                  <p>liên hệ với chúng tôi</p>
+                  <form class="form" id="form">
+                    <div class="form-contact">
+                      <input
+                        type="text"
+                        id="username" 
+                        placeholder="Họ tên"
+                      />
+                      <i class="fa fa-check-circle"></i>
+                      <i class="fa fa-exclamation-circle"></i>
+                      <small>Error message</small>
+                    </div>
+                    <div class="form-contact">
+                      <input
+                        id="email"
+                        type="text"
+                        placeholder="Email"
+                      />
+                      <i class="fa fa-check-circle"></i>
+                      <i class="fa fa-exclamation-circle"></i>
+                      <small>Error message</small>
+                    </div>
+                    <div class="form-contact">
+                      <input
+                        id="phone"
+                        type="text"
+                        placeholder="Số điện thoại"
+                      />
+                      <i class="fa fa-check-circle"></i>
+                      <i class="fa fa-exclamation-circle"></i>
+                      <small>Error message</small>
+                    </div>
+                    <div class="form-contact">
+                      <input
+                        id="desc"
+                        type="text"
+                        placeholder="Nội dung"
+                      />
+                      <i class="fa fa-check-circle"></i>
+                      <i class="fa fa-exclamation-circle"></i>
+                      <small>Error message</small>
+                    </div>
+  
+                    <button type="submit">Gửi</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    
+  <footer>
+    <div class="allInfo">
+      <div class="info">
+        <h5>thông tin chung</h5>
+        <p>
+          công ty tnhh hoàng hoan
+        </p>
+        <ul class="list-footer">
+          <li>
+            <div class="icon"><i class="fa fa-solid fa-phone white"></div></i>
+            <div><a href="tel:0999.999.999">0999.999.999</a></div>
+          </li>
+          <li>
+            <div class="icon"><i class="fa fa-solid fa-envelope white"></i></div>
+            <div><a href="mailto:cskh@hoanghoan.vn">cskh@hoanghoan.vn</a></div>
+          </li>
+          <li>
+            <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+            <div>Số 1 Nguyễn Trãi, Thanh Xuân, Hà Nội</d>
+          </li>
+        </ul>
+    </div>
+      <div class="info">
+        <h5>về chúng tôi</h5>
+        <ul class="list-footer">
+          <li>
+            <a href="#">Giới thiệu</a>
+          </li>
+          <li>
+            <a href="#">Sản phẩm</a>
+          </li>
+          <li>
+            <a href="#">Tin tức</a>
+          </li>
+          <li>
+            <a href="#">Đối tác</a>
+          </li>
+          <li>
+            <a href="#">Liên hệ</a>
+          </li>
+        </ul>
+      </div>
+      <div class="info">
+        <h5>kết nối với chúng tôi</h5>
+        <div class="social">
+          <a href="#"><img src="images/iconFooter/icon_fb_pro.jpg" alt="social images"></a>
+          <a href="#"><img src="images/iconFooter/icon_zalo_pro.jpg" alt="social images"></a>          
+          <a href="#"><img src="images/iconFooter/icon_email_pro.jpg" alt="social images"></a>       
+        </div>
+        <img src="images/iconFooter/chatluong.png" alt="chứng nhận">
+      </div>
+    </div>
+  </footer>
+
+  <div class="credit">
+    Created by <span>Cu Tuan Anh </span> | all rights reserved
+  </div>
+
+  <a href="#" id="scroll-top"><i class="fa fa-angle-up" ></i></a>
+
+  <script>
+      const form= document.getElementById('form');
+      const username= document.getElementById('username');
+      const email= document.getElementById('email');
+      const phone= document.getElementById('phone');
+      const description= document.getElementById('desc');
+  
+      form.addEventListener('submit', (e) => {
+          e.preventDefault();
+          checkInputs();
+      });
+      // check value
+      function checkInputs() {
+        const usernameValue= username.value.trim();
+        const emailValue= email.value.trim();
+        const phoneValue= phone.value.trim();
+        const descriptionValue= description.value.trim();
+
+        if(usernameValue === ''){
+          setErrorFor(username, 'Họ tên không được để trống !');
+        }else{
+          setSuccessFor(username);
+        }
+
+        if(emailValue === ''){
+          setErrorFor(email, 'Email không được để trống !');
+        }else if(!checkEmail(emailValue)){
+          setErrorFor(email, 'Email không đúng định dạng !');
+        }else{
+          setSuccessFor(email);
+        }
+
+        if(phoneValue === ''){
+          setErrorFor(phone, 'Số điện thoại không được để trống !');
+        }else if(!checkPhone(phoneValue)){
+          setErrorFor(phone, 'Số điện thoại không đúng định dạng !');
+        }else{
+          setSuccessFor(phone);
+        }
+
+        if(descriptionValue === ''){
+          setErrorFor(description, 'Nội dung không được để trống !');
+        }else{
+          setSuccessFor(description);
+        }
+
+
+      }
+        
+        // check email
+        const checkEmail = (strInput) => {
+          let regEmail =
+            /(^[a-zA-Z0-9_]+[.]*[a-zA-Z0-9_]+[@][a-zA-Z]+[.][a-zA-Z]{2,4}$)|(^[a-zA-Z0-9]+[.]*[a-zA-Z0-9_]+(\@)[a-zA-Z]+[.][a-zA-Z]{2,4}[.][a-zA-Z]{2}$)/i;
+          if (regEmail.test(strInput)) {
+            return true;
+          } else {
+            return false;
+          }
+        };
+              
+        // check phone
+        const checkPhone = (strInput) => {
+          let regPhone = /((09|03|07|08|05)+([0-9]{8})\b)/g;
+          if (regPhone.test(strInput)) {
+            return true;
+          } else {
+            return false;
+          }
+        };
+
+        // infomation error
+        function setErrorFor(input, message){
+          const formControl = input.parentElement;
+          const small = formControl.querySelector('small');
+          
+          small.innerText = message;
+          formControl.className = 'form-contact error';
+        }
+
+        // infomation success
+        function setSuccessFor(input, message){
+          const formControl = input.parentElement;
+          formControl.className = 'form-contact success';
+        }
+    </script>
+    
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
