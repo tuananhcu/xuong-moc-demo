@@ -867,6 +867,9 @@ footer {
   padding: 3rem 0;
   margin: 0 auto;
 }
+.allInfo .info > img {
+  height: 3rem;
+}
 .allInfo .info h5 {
   color: #fff;
   text-transform: uppercase;
