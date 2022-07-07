@@ -36,7 +36,6 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css"
     />
-    <link rel="stylesheet" href="style.css" />
 
     <script
       type="text/javascript"
@@ -46,6 +45,8 @@
       type="text/javascript"
       src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"
     ></script>
+    <link rel="stylesheet" href="style.css" />
+
     <link rel="stylesheet" href="responsive.css" />
   </head>
 
@@ -607,15 +608,23 @@
           {
             breakpoint: 850,
             settings: {
+              infinite:false,
               slidesToShow: 2,
               slidesToScroll: 2,
+              dots: true,
+              autoplay:false,
+              arrows: false
             },
           },
           {
             breakpoint: 480,
             settings: {
+              infinite:false,
               slidesToShow: 1,
               slidesToScroll: 1,
+              dots: true,
+              autoplay:false,
+              arrows: false
             },
           },
         ],

@@ -77,6 +77,10 @@
     max-width: 50%;
     margin-bottom: 1rem;
   }
+  .slick-prev::before,
+  .slick-next::before {
+    font-size: 1.5rem;
+  }
   .aboutUs .res p:first-child {
     margin-top: 2rem;
   }
